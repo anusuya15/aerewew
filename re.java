@@ -9,19 +9,19 @@ public class Test3 {
 	
 	 
 	
-	      String s, reverse = "";
+	      String s, r = "";
 	      Scanner in = new Scanner(System.in);
 	 
-	      System.out.println("string to reverse");
+	      System.out.println("string to be reverse");
 	      s = in.nextLine();
 	 
 	      int l = s.length();
 	 
 	      for ( int l = length - 1 ; l >= 0 ; l-- )
                 {
-	         reverse = reverse + original.charAt(l);
+	         r = r + original.charAt(l);
 	         }
-	      System.out.println("Reverse  string is: "+reverse);
+	      System.out.println("Reverse  string is: "+r);
 	   }
 	}
 	     
